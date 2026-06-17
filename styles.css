@@ -74,18 +74,20 @@ main{
   p{
     letter-spacing: 0.4rem;
     font-weight: 600;
-    font-size: .875rem;
+    font-size: .8rem;
   }
 
   h1{
     font-size: 2rem;
-    font-family: "Fraunces"
+    font-family: "Fraunces";
+    line-height: 1;
 
   }
 
   p:last-child{
     letter-spacing: 0;
     line-height: 1.5;
+    font-size: .875rem;
     font-weight: 500;
   }
 }
